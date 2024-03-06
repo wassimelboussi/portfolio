@@ -32,7 +32,7 @@ export default function Stack() {
 
   const databaseStack = [
     { name: 'MongoDB', image: MongoDBLogo },
-    { name: 'SQL', image: SQLLogo },
+    { name: 'MySQL', image: SQLLogo },
   ];
 
   const programmingLangStack = [

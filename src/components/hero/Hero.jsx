@@ -3,7 +3,7 @@ import pfp from '../../images/myphoto.jpeg';
 
 export default function Hero() {
   return (
-    <div className='flex flex-col items-center mt-[60px] mb-[30px] md:mt-[50px]' id="/">
+    <div className='flex flex-col items-center mt-[60px] mb-[30px] md:mt-[50px] md:mb-[60px]' id="/">
       <img
         src={pfp}
         alt="My Photo"
