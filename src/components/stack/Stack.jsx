@@ -1,5 +1,3 @@
-import React from 'react';
-
 import HTMLCSSLogo from '../../images/stack-icons/htmlcss.png';
 import TailwindCSSLogo from '../../images/stack-icons/tailwind.png';
 import JavaScriptLogo from '../../images/stack-icons/js.png';

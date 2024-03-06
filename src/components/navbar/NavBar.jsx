@@ -4,7 +4,7 @@ import { FaEnvelope } from 'react-icons/fa';
 
 const NavBar = () => {
   const [scrolling, setScrolling] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Adjust the breakpoint as needed
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const NavBar = () => {
     };
 
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+      setIsMobile(window.innerWidth <= 768);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -30,8 +30,6 @@ const NavBar = () => {
   }, []);
 
   return (
-    // Make nav sticky on scroll for mobile
-    // Hide nav on scroll down and show on scroll up for mobile
     <nav
       id="nav-on-scroll"
       className={`${
@@ -81,12 +79,14 @@ const NavBar = () => {
             >
               Projects
             </Link>
-            <Link
-              to="/resume"
-              className={`inline-block animate__animated animate__fadeInDown kill-link-style delay1 text-2xl xl:text-3xl cursor-pointer hover:underline font-extrabold`}
-            >
-              Resume
-            </Link>
+            <div className={`inline-block animate__animated animate__fadeInDown kill-link-style delay1 text-2xl xl:text-3xl cursor-pointer hover:underline font-extrabold`}>
+              <a href='https://github.com/wassimelboussi/resume/blob/main/cv.pdf'
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </div>
           </div>
           <div>
           <Link

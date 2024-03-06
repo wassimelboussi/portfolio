@@ -24,7 +24,7 @@ export default function ContactForm() {
   return (
     <section className='bg-blue-950 py-10' id='contact'>
       <div className="max-w-md mx-auto">
-        <h2 className="text-4xl mb-4 text-green-300 font-bold text-center md:text-5xl">Contact Me</h2>
+        <h2 className="text-4xl mb-4 text-green-300 font-bold text-center md:text-5xl cursor-default select-none">Contact Me</h2>
         <form onSubmit={handleSubmit} className="flex flex-col">
           <div className="mb-4">
             <label htmlFor="name" className="block text-white font-bold mx-4 md:m-0 lg:m-0">Name</label>

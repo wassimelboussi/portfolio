@@ -1,6 +1,3 @@
-// ProjectCard.jsx
-import React from 'react';
-
 function ProjectCard({ imageSrc, title, description, sourceCodeLink, buttonProps }) {
   const { buttonText, isDisabled, onClick } = buttonProps || {};
 

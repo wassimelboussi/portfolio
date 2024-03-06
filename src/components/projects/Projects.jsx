@@ -1,5 +1,3 @@
-// Projects.jsx
-import React from 'react';
 import ProjectCard from '../projectCard/ProjectCard';
 
 export default function Projects() {
@@ -42,7 +40,6 @@ export default function Projects() {
               onClick: () => window.open('https://github.com/wassimelboussi/portfolio', '_blank'),
             }}
           />
-          {/* Add more ProjectCard components with different button configurations as needed */}
         </div>
       </div>
     </section>
