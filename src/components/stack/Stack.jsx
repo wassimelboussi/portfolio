@@ -3,7 +3,7 @@ import React from 'react';
 import HTMLCSSLogo from '../../images/htmlcss.png';
 import TailwindCSSLogo from '../../images/tailwind.png';
 import JavaScriptLogo from '../../images/js.png';
-import ReactJSLogo from '../../images/react.png';
+import ReactJSLogo from '../../images/reacticon.png';
 import Bootstrap5Logo from '../../images/bootstrap.svg';
 import GitLogo from '../../images/git.png';
 import GitHubLogo from '../../images/github.png';
