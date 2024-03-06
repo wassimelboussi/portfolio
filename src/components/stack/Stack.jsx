@@ -12,7 +12,7 @@ import SQLLogo from '/images/stack-icons/mysql.png';
 import JavaLogo from '/images/stack-icons/java.png';
 import PythonLogo from '/images/stack-icons/python.png';
 import VueJSLogo from '/images/stack-icons/vue.png';
-import TypeScriptLogo from '/images/stack-icons/typescript.svg';
+import TypeScriptLogo from '/images/stack-icons/Typescript.svg';
 
 import './Stack.css';
 
