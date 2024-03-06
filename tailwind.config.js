@@ -11,6 +11,10 @@ export default {
         '1/2': '50%',
         'full': '100%',
       },
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif'],
+      },
       colors: {
         yellow: '#FDE68A',
       },

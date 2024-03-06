@@ -23,7 +23,7 @@ const Footer = () => {
             <FaGithub />
           </a>
         </div>
-        <p className="text-xl ml-4">© 2024 Mohamed Wassim El Boussi. All Rights Reserved.</p>
+        <p className="text-sm md:text-xl lg:text-xl ml-4">© 2024 Mohamed Wassim El Boussi. All Rights Reserved.</p>
       </div>
     </footer>
   );

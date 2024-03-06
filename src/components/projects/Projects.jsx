@@ -1,3 +1,4 @@
+// Projects.jsx
 import React from 'react';
 import ProjectCard from '../projectCard/ProjectCard';
 
@@ -9,33 +10,39 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            imageSrc="src/images/projectimage1.png"
+            imageSrc="src/images/project-images/CBA.png"
             title="Classroom Behavior Analyzer"
             description="This is a tool that helps educators analyze and track the focus level of their students during class. It uses facial recognition to detect the students' faces and then uses a machine learning model to determine whether the student is focused or not. This project was built using Python, OpenCV, and Tensorflow."
             sourceCodeLink="project1-source-code-link"
-            liveDemoLink="project1-live-demo-link"
-          />          
-          <ProjectCard
-            imageSrc="src/images/projectimage1.png"
-            title="BPTF Power Tool"
-            description="This is a trading script built with Python that acts like a broker for the trading website backpack.tf. It allows users to automatically buy and sell items on the website. It also allows users to automatically accept trade offers from other users. This project was built using Python and Selenium."
-            sourceCodeLink="project1-source-code-link"
-            liveDemoLink="project1-live-demo-link"
-          />          
-          <ProjectCard
-            imageSrc="src/images/projectimage1.png"
-            title="Project 3"
-            description="This is a short description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            sourceCodeLink="project1-source-code-link"
-            liveDemoLink="project1-live-demo-link"
-          />          
-          <ProjectCard
-            imageSrc="src/images/projectimage1.png"
-            title="Project 4"
-            description="This is a short description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            sourceCodeLink="project1-source-code-link"
-            liveDemoLink="project1-live-demo-link"
+            buttonProps={{
+              buttonText: 'Upon request',
+              isDisabled: true,
+              onClick: () => console.log('Button Clicked for Project 1'),
+            }}
           />
+          <ProjectCard
+            imageSrc="src/images/project-images/vue-weather.png"
+            title="Vue Weather App"
+            description="I developed a weather app using Vue JS, incorporating dynamic features for real-time updates. The app seamlessly integrates with weather APIs, providing users with accurate forecasts. Its responsive design ensures a smooth experience, making it a user-friendly and visually appealing tool for tracking weather conditions."
+            sourceCodeLink="project2-source-code-link"
+            buttonProps={{
+              buttonText: 'View Source Code',
+              isDisabled: false,
+              onClick: () => window.open('https://github.com/wassimelboussi/Vue-Weather-App', '_blank')
+            }}
+          />
+          <ProjectCard
+            imageSrc="src/images/project-images/myportfolio.png"
+            title="My Portfolio"
+            description="Featured in the projects section of my portfolio is the portfolio itself. Developed with ReactJS and styled with Tailwind CSS, this project allows viewers to access its source code."
+            sourceCodeLink="project3-source-code-link"
+            buttonProps={{
+              buttonText: 'View Source Code',
+              isDisabled: false,
+              onClick: () => window.open('https://github.com/wassimelboussi/portfolio', '_blank'),
+            }}
+          />
+          {/* Add more ProjectCard components with different button configurations as needed */}
         </div>
       </div>
     </section>

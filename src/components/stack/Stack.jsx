@@ -1,18 +1,20 @@
 import React from 'react';
 
-import HTMLCSSLogo from '../../images/htmlcss.png';
-import TailwindCSSLogo from '../../images/tailwind.png';
-import JavaScriptLogo from '../../images/js.png';
-import ReactJSLogo from '../../images/reacticon.png';
-import Bootstrap5Logo from '../../images/bootstrap.svg';
-import GitLogo from '../../images/git.png';
-import GitHubLogo from '../../images/github.png';
-import NodeJSLogo from '../../images/nodejs.png';
-import ExpressJSLogo from "../../images/expressjs.png";
-import MongoDBLogo from '../../images/mongodb.png';
-import SQLLogo from '../../images/mysql.png';
-import JavaLogo from '../../images/java.png';
-import PythonLogo from '../../images/python.png';
+import HTMLCSSLogo from '../../images/stack-icons/htmlcss.png';
+import TailwindCSSLogo from '../../images/stack-icons/tailwind.png';
+import JavaScriptLogo from '../../images/stack-icons/js.png';
+import ReactJSLogo from '../../images/stack-icons/reacticon.png';
+import Bootstrap5Logo from '../../images/stack-icons/bootstrap.svg';
+import GitLogo from '../../images/stack-icons/git.png';
+import GitHubLogo from '../../images/stack-icons/github.png';
+import NodeJSLogo from '../../images/stack-icons/nodejs.png';
+import ExpressJSLogo from "../../images/stack-icons/expressjs.png";
+import MongoDBLogo from '../../images/stack-icons/mongodb.png';
+import SQLLogo from '../../images/stack-icons/mysql.png';
+import JavaLogo from '../../images/stack-icons/java.png';
+import PythonLogo from '../../images/stack-icons/python.png';
+import VueJSLogo from '../../images/stack-icons/vue.png';
+import TypeScriptLogo from '../../images/stack-icons/typescript.svg';
 
 import './Stack.css';
 
@@ -20,12 +22,14 @@ export default function Stack() {
   const frontendStack = [
     { name: 'HTML/CSS', image: HTMLCSSLogo },
     { name: 'Tailwind CSS', image: TailwindCSSLogo },
-    { name: 'JavaScript', image: JavaScriptLogo },
     { name: 'ReactJS', image: ReactJSLogo },
     { name: 'Bootstrap 5', image: Bootstrap5Logo },
+    { name: 'VueJS', image: VueJSLogo }
   ];
 
   const backendStack = [
+    { name: 'JavaScript', image: JavaScriptLogo },
+    { name: 'Typescript', image: TypeScriptLogo },
     { name: 'Node.js', image: NodeJSLogo },
     { name: 'Express.js', image: ExpressJSLogo },
   ];
@@ -59,7 +63,7 @@ export default function Stack() {
         <h1 className='text-4xl md:text-5xl font-bold text-green-300 mb-8 relative'>
           Stack
         </h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-3 stack-container'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mx-3 stack-container'>
           {allTechnologies.map((tech, index) => (
             <div
               key={index}
