@@ -58,7 +58,7 @@ export default function Stack() {
   return (
     <div className='bg-blue-950 text-white py-[20px] md:py-[35px]' id="stack">
       <div className='container mx-auto text-center'>
-        <h1 className='text-4xl md:text-5xl font-bold text-green-300 mb-8 relative'>
+        <h1 className='text-4xl md:text-5xl font-bold text-green-300 mb-8 relative cursor-default select-none'>
           Stack
         </h1>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mx-3 stack-container'>
