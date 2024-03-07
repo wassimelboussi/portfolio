@@ -1,18 +1,18 @@
-import HTMLCSSLogo from '~/images/stack-icons/htmlcss.png';
-import TailwindCSSLogo from '~/images/stack-icons/tailwind.png';
-import JavaScriptLogo from '~/images/stack-icons/js.png';
-import ReactJSLogo from '~/images/stack-icons/reacticon.png';
-import Bootstrap5Logo from '~/images/stack-icons/bootstrap.svg';
-import GitLogo from '~/images/stack-icons/git.png';
-import GitHubLogo from '~/images/stack-icons/github.png';
-import NodeJSLogo from '~/images/stack-icons/nodejs.png';
-import ExpressJSLogo from "~/images/stack-icons/expressjs.png";
-import MongoDBLogo from '~/images/stack-icons/mongodb.png';
-import SQLLogo from '~/images/stack-icons/mysql.png';
-import JavaLogo from '~/images/stack-icons/java.png';
-import PythonLogo from '~/images/stack-icons/python.png';
-import VueJSLogo from '~/images/stack-icons/vue.png';
-import TypeScriptLogo from '~/images/stack-icons/Typescript.svg';
+import HTMLCSSLogo from '/images/stack-icons/htmlcss.png';
+import TailwindCSSLogo from '/images/stack-icons/tailwind.png';
+import JavaScriptLogo from '/images/stack-icons/js.png';
+import ReactJSLogo from '/images/stack-icons/reacticon.png';
+import Bootstrap5Logo from '/images/stack-icons/bootstrap.svg';
+import GitLogo from '/images/stack-icons/git.png';
+import GitHubLogo from '/images/stack-icons/github.png';
+import NodeJSLogo from '/images/stack-icons/nodejs.png';
+import ExpressJSLogo from '/images/stack-icons/expressjs.png';
+import MongoDBLogo from '/images/stack-icons/mongodb.png';
+import SQLLogo from '/images/stack-icons/mysql.png';
+import JavaLogo from '/images/stack-icons/java.png';
+import PythonLogo from '/images/stack-icons/python.png';
+import VueJSLogo from '/images/stack-icons/vue.png';
+import TypeScriptLogo from '/images/stack-icons/Typescript.svg';
 
 import './Stack.css';
 

@@ -1,4 +1,4 @@
-import pfp from '../../images/myphoto.jpeg';
+import pfp from '/images/myphoto.jpeg';
 
 export default function Hero() {
   return (
