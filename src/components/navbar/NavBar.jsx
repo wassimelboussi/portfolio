@@ -51,7 +51,7 @@ const NavBar = () => {
               <span className="hidden md:inline-block lg:inline-block animate__animated animate__fadeInDown rounded-md border-4 border-gray-900 text-gray-900 select-none p-2 text-2xl rxl:text-3xl font-extrabold cursor-pointer">
                 wassim.elboussi
               </span>
-              <span className="md:hidden lg:hidden inline-block animate__animated animate__fadeInDown rounded-md border-4 border-gray-900 text-gray-900 select-none p-2 text-2xl rxl:text-3xl font-extrabold cursor-pointer">
+              <span className="ml-3 md:ml-0 lg:ml-0 md:hidden lg:hidden inline-block animate__animated animate__fadeInDown rounded-md border-4 border-gray-900 text-gray-900 select-none p-2 text-2xl rxl:text-3xl font-extrabold cursor-pointer">
                 W
               </span>
             </Link>
@@ -108,7 +108,7 @@ const NavBar = () => {
           hashSpy={true}
           offset={50}
           duration={500}>
-            <span className='md:hidden lg:hidden text-2xl'>
+            <span className='hidden md:hidden lg:hidden text-2xl'>
               <FaEnvelope />
             </span>
             </Link>
