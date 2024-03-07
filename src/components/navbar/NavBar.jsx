@@ -80,7 +80,7 @@ const NavBar = () => {
               Projects
             </Link>
             <div className={`inline-block animate__animated animate__fadeInDown kill-link-style delay1 text-2xl xl:text-3xl cursor-pointer hover:underline font-extrabold`}>
-              <a href='https://github.com/wassimelboussi/resume/blob/main/cv.pdf'
+              <a href='/docs/cv.pdf'
               target="_blank"
               rel="noopener noreferrer"
               >
